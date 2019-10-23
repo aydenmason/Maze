@@ -11,7 +11,7 @@ int main(int argc, char * argv[])
     int col =0; 
     int rows = 0 ;
     int i = 0;
-<<<<<<< HEAD
+
     while(true){
     cin >> rows; 
     if(rows == 0 )
@@ -29,7 +29,7 @@ int main(int argc, char * argv[])
     print_matrix(matrix, rows);
     delete_matrix(matrix);
     i++;
-=======
+
     string blank;
     cin >> rows;
     while(rows > 0 ){
@@ -48,7 +48,7 @@ int main(int argc, char * argv[])
         std::getline(cin,blank);
         cin >> rows;
         i++;
->>>>>>> ad8e23dc82d1a2861e16967e707c0baa9654979e
+
     }
     return 0;
  
